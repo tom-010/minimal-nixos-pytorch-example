@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gpu"
+version = "0.1.0"
+description = ""
+authors = ["Thomas Stadelmann <tom-010@web.de>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.7.1"
+tqdm = "^4.66.2"
+click = "^8.1.7"
+torch = "^2.2.2"
+torchvision = "^0.17.2"
+torchaudio = "^2.2.2"
+fastai = "^2.7.14"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
